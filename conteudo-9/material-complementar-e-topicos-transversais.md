@@ -21,8 +21,23 @@ Esta seção não precisa ocupar necessariamente uma aula inteira. Ela serve com
 
 Mesmo quando a tecnologia funciona bem, um sistema de IA pode falhar por causa de uso irresponsável, dados sensíveis, prompts mal protegidos ou expectativa errada sobre o que ele realmente faz.
 
+## Exemplo rápido
+
+Um agente pode até responder bem, mas se estiver exposto a dados sensíveis sem controle, ou se aceitar instruções maliciosas em um prompt, a solução deixa de ser segura.
+
+## O que o aluno deve guardar
+
+* IA precisa de cuidado técnico e ético;
+* segurança e privacidade continuam importando;
+* custo e observabilidade fazem parte da solução;
+* nem todo problema precisa de IA.
+
 ## [AQUI VAI UMA IMAGEM]
 
 Prompt da imagem:
 Criar uma ilustração tipo infográfico, voltada para material educacional, que reúna os principais tópicos transversais de IA aplicada ao desenvolvimento: ética, privacidade, prompt injection, custos, logs, confiança e UX. A imagem deve mostrar esses assuntos como blocos ou cards organizados ao redor de um centro com o título "Boas práticas em IA". Usar estilo editorial moderno, com fundo claro, iconografia simples, cores equilibradas, layout limpo e alta legibilidade. Não usar excesso de texto nem visual poluído. Proporção 16:9.
+
+## Resumo
+
+Esses temas talvez não sejam o foco principal da aula, mas são essenciais para que o aluno entenda os cuidados reais ao usar IA em produtos e ferramentas de desenvolvimento.
 

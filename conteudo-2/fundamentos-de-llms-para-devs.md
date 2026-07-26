@@ -26,6 +26,18 @@ Isso ajuda a entender por que:
 * mensagens longas demais podem perder informação importante;
 * pequenos detalhes na escrita influenciam bastante o resultado.
 
+## Exemplo rápido
+
+Se você pede:
+
+* "Explique a ideia de contexto em IA para um aluno do primeiro semestre."
+
+o modelo tende a responder de forma mais didática do que se você escrever apenas:
+
+* "Explique contexto."
+
+A diferença parece pequena, mas o tipo de resposta muda bastante.
+
 ## O que o aluno precisa memorizar
 
 * o modelo não "sabe" tudo;
@@ -41,4 +53,8 @@ Criar uma ilustração didática que explique, de forma visual e simples, como u
 ## Fechamento
 
 Se o aluno entender tokens, contexto e prompting, ele já tem a base suficiente para seguir para engenharia de prompts, copilotos e agentes.
+
+## Resumo
+
+LLM é um modelo de previsão de texto que trabalha com tokens e contexto limitado. Na prática, a qualidade da resposta depende muito da qualidade do prompt e do tamanho do contexto disponível.
 

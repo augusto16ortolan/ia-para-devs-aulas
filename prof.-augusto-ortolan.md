@@ -1,18 +1,19 @@
+---
+description: >-
+  Apresentação do professor responsável pela disciplina, com informações de
+  contato e contexto profissional.
+---
+
 # Prof. Augusto Ortolan
 
-[AQUI VAI UMA IMAGEM]
+<figure><img src=".gitbook/assets/Design sem nome.png" alt=""><figcaption></figcaption></figure>
 
-Prompt da imagem:
-Criar um retrato institucional e didático de um professor para a página de um
-GitBook acadêmico sobre IA aplicada ao desenvolvimento. A imagem deve mostrar
-uma pessoa em postura confiável e acessível, com fundo limpo e discreto, roupa
-casual-profissional e atmosfera de sala de aula moderna. O estilo precisa ser
-realista, elegante e bem iluminado, com cores neutras e composição simples,
-adequado para uma página de apresentação de professor em material educacional.
-Proporção 4:5 ou 1:1, alta qualidade e sem exageros visuais.
+Sou docente no curso de Ciência da Computação da Atitus Educação e desenvolvedor de software sênior, com mais de 7 anos de experiência. Atualmente, trabalho na multinacional Thomson Reuters, onde atuo no desenvolvimento e manutenção de APIs REST para o maior sistema de contabilidade do Brasil, utilizando Java, Spring Boot e Spring WebFlux como principais tecnologias.
 
-Professor e responsável pelo material da disciplina.
+Sou bacharel em Ciência da Computação pela Atitus Educação (dezembro de 2022) e possuo MBA/Pós-graduação em Desenvolvimento Full-Stack pela Sirius, em parceria com a Rocketseat.
 
-Este GitBook foi estruturado para apoiar as aulas e servir como referência de
-consulta ao longo do semestre, com textos objetivos, exemplos práticos e
-espaços planejados para imagens didáticas.
+Além da minha atuação profissional, sou apaixonado por tecnologia e dedico meu tempo livre ao estudo e desenvolvimento de aplicações mobile com React Native e desenvolvimento web com React.js. Esse interesse me levou a utilizá-los no meu Trabalho de Conclusão de Curso (TCC), onde desenvolvi o _Ubeen_, um aplicativo para controle de registros em eventos.
+
+LinkedIn: [https://www.linkedin.com/in/augustoortolan/](https://www.linkedin.com/in/augustoortolan/)\
+E-mail: augusto.ortolan@atitus.edu.br
+

@@ -26,6 +26,18 @@ Em prompts para agentes, costuma ser importante explicitar:
 * **Tool instructions:** explicam quando e como usar ferramentas externas.
 * **Controle de saída:** ajuda a manter o formato esperado.
 
+## Exemplo rápido
+
+Um chatbot pode receber:
+
+* "Explique o que é MCP."
+
+Já um agente pode receber algo como:
+
+* "Leia a documentação, consulte a API e me devolva um resumo com riscos e próximos passos."
+
+Perceba que o segundo caso exige mais controle, mais contexto e mais clareza sobre o que a ferramenta pode fazer.
+
 ## Boas práticas
 
 * ser claro sobre a função do agente;
@@ -34,11 +46,6 @@ Em prompts para agentes, costuma ser importante explicitar:
 * orientar o formato de resposta;
 * deixar explicitado quando a ferramenta deve ser usada.
 
-## [AQUI VAI UMA IMAGEM]
-
-Prompt da imagem:
-Criar uma ilustração comparando visualmente um prompt de chatbot e um prompt de agente. A imagem deve ter duas colunas lado a lado. Na primeira, um chatbot recebendo uma pergunta simples e respondendo texto. Na segunda, um agente com system prompt, instruções de ferramentas e uma pequena lista de ações possíveis, mostrando que ele planeja antes de responder. Destacar visualmente os blocos "system", "user" e "tools" com design limpo e didático. O estilo deve ser moderno, profissional, claro e organizado, com fundo claro, tipografia discreta e cores suaves. Proporção 16:9.
-
 ## O que evitar
 
 * prompts muito vagos;
@@ -46,4 +53,13 @@ Criar uma ilustração comparando visualmente um prompt de chatbot e um prompt d
 * instruções contraditórias;
 * liberar ferramentas sem necessidade;
 * respostas sem formato definido quando o fluxo exigir padrão.
+
+## [AQUI VAI UMA IMAGEM]
+
+Prompt da imagem:
+Criar uma ilustração comparando visualmente um prompt de chatbot e um prompt de agente. A imagem deve ter duas colunas lado a lado. Na primeira, um chatbot recebendo uma pergunta simples e respondendo texto. Na segunda, um agente com system prompt, instruções de ferramentas e uma pequena lista de ações possíveis, mostrando que ele planeja antes de responder. Destacar visualmente os blocos "system", "user" e "tools" com design limpo e didático. O estilo deve ser moderno, profissional, claro e organizado, com fundo claro, tipografia discreta e cores suaves. Proporção 16:9.
+
+## Resumo
+
+Se o prompt define comportamento, ele precisa ser claro sobre papel, objetivo, ferramentas e limites. Em agentes, isso vale ainda mais do que em chatbots comuns.
 

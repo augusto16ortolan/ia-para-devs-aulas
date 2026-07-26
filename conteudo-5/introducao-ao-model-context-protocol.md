@@ -30,8 +30,16 @@ Com MCP, o ecossistema fica mais organizado e previsível.
 * ele organiza melhor o acesso a contexto e recursos;
 * ele é muito útil quando um agente precisa conversar com várias fontes.
 
+## Exemplo rápido
+
+Se um agente precisa consultar dados em vários lugares, o MCP ajuda a padronizar a forma de acesso. Em vez de construir uma integração diferente para cada ferramenta, a comunicação segue o mesmo modelo.
+
 ## [AQUI VAI UMA IMAGEM]
 
 Prompt da imagem:
 Criar uma ilustração didática explicando a arquitetura cliente-servidor do MCP. A cena deve mostrar, de forma clara e horizontal, um cliente de IA, um servidor MCP no centro e três tipos de recursos conectados: uma API, um banco de dados e um sistema de arquivos. Usar setas indicando fluxo de requisição e resposta, com pequenos rótulos como "client", "MCP server", "tools" e "resources". O visual deve ser limpo, técnico e moderno, com fundo claro, linhas finas, organização em camadas e aparência educativa, sem estilo cartoon e sem excesso de texto. Proporção 16:9.
+
+## Resumo
+
+O MCP existe para organizar a integração entre agentes e ferramentas. Ele não resolve tudo sozinho, mas deixa a arquitetura mais clara, modular e reaproveitável.
 

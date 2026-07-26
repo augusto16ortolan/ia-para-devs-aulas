@@ -32,7 +32,7 @@ O foco é dar ao aluno o contexto necessário para:
 * montar um servidor MCP simples;
 * enxergar como agentes tomam decisões e se conectam a ferramentas externas.
 
-## Como este material esta organizado
+## Como este material está organizado
 
 Cada conteúdo segue uma linha parecida:
 
@@ -42,7 +42,7 @@ Cada conteúdo segue uma linha parecida:
 4. imagem ilustrativa com prompt para geração posterior;
 5. atividades para fixação.
 
-## Sequencia do curso
+## Sequência da disciplina
 
 * [Conteúdo 1 - Introdução ao curso](conteudo-1/introducao-ao-curso.md)
 * [Conteúdo 2 - Fundamentos de LLMs para devs](conteudo-2/fundamentos-de-llms-para-devs.md)

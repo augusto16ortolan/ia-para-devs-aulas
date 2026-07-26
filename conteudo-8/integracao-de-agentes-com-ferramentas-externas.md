@@ -27,6 +27,10 @@ Isso pode acontecer de duas formas principais:
 * tratar erros e timeouts;
 * registrar logs para auditar o que foi feito.
 
+## Exemplo rápido
+
+Se o agente pode consultar uma API de estoque, ele pode responder com informações atualizadas sem depender de texto estático. O ganho está em trazer dados reais para a decisão.
+
 ## O que o aluno deve perceber
 
 Integrar um agente a ferramentas externas não é apenas "dar acesso" a um serviço. É preciso pensar em:
@@ -41,4 +45,8 @@ Integrar um agente a ferramentas externas não é apenas "dar acesso" a um servi
 
 Prompt da imagem:
 Criar uma ilustração mostrando um agente conectado a diferentes ferramentas externas: uma API, um banco de dados e um sistema de arquivos. A cena deve comparar visualmente duas rotas de integração, uma via MCP e outra via function calling direto, com setas claras e pequenos blocos explicativos. O estilo deve ser editorial, técnico e limpo, com fundo claro, cores suaves, componentes organizados e foco em clareza pedagógica. Proporção 16:9.
+
+## Resumo
+
+A integração é a etapa em que a IA deixa de apenas conversar e passa a agir. Nessa hora, segurança e previsibilidade são tão importantes quanto a resposta em si.
 
