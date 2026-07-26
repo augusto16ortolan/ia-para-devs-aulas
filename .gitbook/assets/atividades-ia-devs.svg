@@ -1,0 +1,51 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FBFF"/>
+      <stop offset="1" stop-color="#EEF8F2"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="88" y="78" width="1424" height="744" rx="32" fill="white" stroke="#D8E5F0" stroke-width="2"/>
+  <text x="144" y="180" fill="#0F172A" font-family="Arial, Helvetica, sans-serif" font-size="60" font-weight="700">
+    Atividades
+  </text>
+  <text x="146" y="236" fill="#475569" font-family="Arial, Helvetica, sans-serif" font-size="28">
+    Revisão, prática e consolidação dos principais conceitos da disciplina
+  </text>
+
+  <rect x="146" y="320" width="360" height="120" rx="24" fill="#E0F2FE" stroke="#7DD3FC"/>
+  <text x="182" y="374" fill="#0369A1" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">
+    Relembrar
+  </text>
+  <text x="182" y="413" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="22">
+    conceitos e definições
+  </text>
+
+  <rect x="620" y="320" width="360" height="120" rx="24" fill="#ECFDF5" stroke="#86EFAC"/>
+  <text x="656" y="374" fill="#15803D" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">
+    Aplicar
+  </text>
+  <text x="656" y="413" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="22">
+    exemplos e cenários práticos
+  </text>
+
+  <rect x="1094" y="320" width="272" height="120" rx="24" fill="#FEF3C7" stroke="#FCD34D"/>
+  <text x="1130" y="374" fill="#B45309" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">
+    Refletir
+  </text>
+  <text x="1130" y="413" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="22">
+    com mais criticidade
+  </text>
+
+  <rect x="170" y="530" width="1220" height="190" rx="28" fill="#0F172A"/>
+  <text x="220" y="598" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700">
+    Perguntas para estudar e consolidar
+  </text>
+  <text x="220" y="646" fill="#CBD5E1" font-family="Arial, Helvetica, sans-serif" font-size="24">
+    Fundamentos • prompts • copilotos • MCP • agentes • integrações
+  </text>
+  <text x="220" y="686" fill="#CBD5E1" font-family="Arial, Helvetica, sans-serif" font-size="24">
+    Responda com atenção, conectando teoria, prática e tomada de decisão
+  </text>
+</svg>

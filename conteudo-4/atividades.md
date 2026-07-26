@@ -1,4 +1,14 @@
+---
+description: >-
+  Prepare-se para explorar, experimentar e consolidar seus conhecimentos
+  enquanto enfrenta novos desafios de programação!
+---
+
 # Atividades
+
+<figure><img src="../.gitbook/assets/atividades-ia-devs.svg" alt=""><figcaption></figcaption></figure>
+
+## Questões de estudo
 
 1. Cite três tarefas em que um copiloto de código pode ajudar mais do que um autocomplete comum.
 2. Por que o resultado da IA precisa ser revisado?

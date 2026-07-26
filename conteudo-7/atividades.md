@@ -1,4 +1,14 @@
+---
+description: >-
+  Prepare-se para explorar, experimentar e consolidar seus conhecimentos
+  enquanto enfrenta novos desafios de programação!
+---
+
 # Atividades
+
+<figure><img src="../.gitbook/assets/atividades-ia-devs.svg" alt=""><figcaption></figcaption></figure>
+
+## Questões de estudo
 
 1. Explique o ciclo básico de um agente.
 2. Em que situação vale mais a pena usar um agente único?
