@@ -4,7 +4,7 @@ description: >-
   foco em LLMs, prompts, copilotos de código, MCP e agentes.
 ---
 
-# Machine Learning e Inteligência Artificial para Devs
+# IA para Desenvolvedores
 
 <figure><img src=".gitbook/assets/ia-devs-cover.svg" alt=""><figcaption></figcaption></figure>
 
