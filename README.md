@@ -32,6 +32,37 @@ O foco é dar ao aluno o contexto necessário para:
 * montar um servidor MCP simples;
 * enxergar como agentes tomam decisões e se conectam a ferramentas externas.
 
+## Antes de começar
+
+Nesta disciplina, a ideia é entender como a IA entrou no dia a dia do desenvolvimento de software de um jeito prático e direto.
+
+Em vez de focar em teoria pesada, vamos trabalhar com uma ideia simples: entender o suficiente para usar bem.
+
+Ao longo dos próximos tópicos, você vai ver:
+
+* como LLMs funcionam na prática;
+* como escrever prompts melhores;
+* como usar copilotos de código;
+* o que é MCP e por que ele é importante;
+* como agentes se organizam e usam ferramentas externas.
+
+## O que você deve levar desta disciplina
+
+* Uma visão clara do ecossistema de IA aplicada ao desenvolvimento.
+* Capacidade de reconhecer quando uma ferramenta de IA ajuda de verdade.
+* Noções básicas de integração entre agentes, ferramentas e dados.
+* Um repertório mínimo para conversar sobre IA com mais segurança técnica.
+
+## O que você vai encontrar ao longo do material
+
+Cada conteúdo foi pensado para combinar:
+
+* explicação curta e objetiva;
+* exemplos do mundo real;
+* um pouco de visão arquitetural;
+* espaço para imagens didáticas;
+* atividades para fixação.
+
 ## Como este material está organizado
 
 Cada conteúdo segue uma linha parecida:
@@ -44,7 +75,7 @@ Cada conteúdo segue uma linha parecida:
 
 ## Sequência da disciplina
 
-* [Conteúdo 1 - Introdução ao curso](conteudo-1/introducao-ao-curso.md)
+* [Conteúdo 1 - Fundamentos da disciplina](conteudo-1/introducao-ao-curso.md)
 * [Conteúdo 2 - Fundamentos de LLMs para devs](conteudo-2/fundamentos-de-llms-para-devs.md)
 * [Conteúdo 3 - Engenharia de prompts para agentes](conteudo-3/engenharia-de-prompts-para-agentes.md)
 * [Conteúdo 4 - Copilotos de código na prática](conteudo-4/copilots-de-codigo-na-pratica.md)
@@ -56,8 +87,7 @@ Cada conteúdo segue uma linha parecida:
 
 ## Observação pedagógica
 
-Este material foi planejado para ser mais panorâmico do que técnico em
-profundidade. O objetivo é que o aluno termine o semestre sabendo:
+Este material foi planejado para ser mais panorâmico do que técnico em profundidade. O objetivo é que o aluno termine o semestre sabendo:
 
 * o que cada tecnologia faz;
 * quando ela faz sentido;

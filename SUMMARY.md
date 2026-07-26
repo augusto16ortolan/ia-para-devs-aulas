@@ -5,9 +5,6 @@
 
 ## 💻 Conteúdo 1
 
-* [Introdução ao curso](conteudo-1/introducao-ao-curso.md)
-* [Atividades](conteudo-1/atividades.md)
-
 ## 💻 Conteúdo 2
 
 * [Fundamentos de LLMs para devs](conteudo-2/fundamentos-de-llms-para-devs.md)
@@ -47,4 +44,3 @@
 
 * [Material complementar e tópicos transversais](conteudo-9/material-complementar-e-topicos-transversais.md)
 * [Atividades](conteudo-9/atividades.md)
-
