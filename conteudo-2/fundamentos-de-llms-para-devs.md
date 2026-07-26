@@ -28,10 +28,7 @@ Ao final deste conteúdo, você deve ser capaz de:
 * visualizar onde LLMs ajudam no trabalho de desenvolvimento;
 * usar essa base para seguir com prompts, copilotos, MCP e agentes.
 
-## [AQUI VAI UMA IMAGEM]
-
-Prompt da imagem:
-Criar uma ilustração didática de abertura para um capítulo sobre fundamentos de LLMs para desenvolvedores. A composição deve mostrar um fluxo visual organizado em cinco blocos conectados: funcionamento do modelo, contexto e memória, capacidades e erros, uso no desenvolvimento de software e boas práticas. No centro, representar um modelo de linguagem como um núcleo de processamento textual, com setas ligando entradas, contexto e saídas. O estilo deve ser editorial, técnico e moderno, com fundo claro, paleta equilibrada entre azul, verde e cinza, boa hierarquia visual, elementos limpos e aparência profissional de material educacional. Proporção 16:9.
+<figure><img src="../.gitbook/assets/fundamentos-llm-overview.svg" alt=""><figcaption></figcaption></figure>
 
 ## Sequência das páginas
 
@@ -44,4 +41,3 @@ Criar uma ilustração didática de abertura para um capítulo sobre fundamentos
 ## Resumo
 
 Este conteúdo funciona como a base conceitual da disciplina. Se você entender bem como um LLM responde, onde ele ajuda e onde ele falha, os próximos tópicos ficam muito mais naturais.
-

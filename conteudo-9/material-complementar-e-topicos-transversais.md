@@ -1,43 +1,47 @@
 ---
-description: Tópicos de apoio para consulta, sem aprofundar demais em aula.
+description: Visão geral dos temas complementares que ajudam a usar IA com mais responsabilidade.
 ---
 
 # Material complementar e tópicos transversais
 
-Esta seção não precisa ocupar necessariamente uma aula inteira. Ela serve como apoio para o aluno consultar quando quiser entender riscos e boas práticas gerais de produtos com IA.
+Esta parte final do GitBook funciona como apoio. Ela não precisa, necessariamente, ocupar uma aula inteira, mas é importante para dar ao aluno uma visão mais madura sobre o uso de IA em produtos, fluxos e ferramentas de desenvolvimento.
 
-## Tópicos importantes
+Ao longo da disciplina, vários assuntos aparecem de forma prática. Aqui, a ideia é reuni-los em um bloco complementar, com foco em responsabilidade, segurança, custo e critérios de uso.
 
-* ética e uso responsável;
-* privacidade e dados;
-* prompt injection;
-* custos e consumo de API;
-* logs e observabilidade;
-* limites de confiança;
-* quando usar e quando não usar IA;
-* noções de UX para produtos com IA.
+## O que você vai estudar aqui
 
-## Por que isso importa
+Ao longo deste conteúdo, vamos organizar o tema em cinco blocos:
 
-Mesmo quando a tecnologia funciona bem, um sistema de IA pode falhar por causa de uso irresponsável, dados sensíveis, prompts mal protegidos ou expectativa errada sobre o que ele realmente faz.
+1. ética e uso responsável;
+2. privacidade, dados e segurança;
+3. custos, observabilidade e operação;
+4. limites de confiança e quando não usar IA;
+5. experiência de uso e fechamento do material.
 
-## Exemplo rápido
+## Objetivos de aprendizagem
 
-Um agente pode até responder bem, mas se estiver exposto a dados sensíveis sem controle, ou se aceitar instruções maliciosas em um prompt, a solução deixa de ser segura.
+Ao final deste conteúdo, você deve ser capaz de:
 
-## O que o aluno deve guardar
-
-* IA precisa de cuidado técnico e ético;
-* segurança e privacidade continuam importando;
-* custo e observabilidade fazem parte da solução;
-* nem todo problema precisa de IA.
+* reconhecer riscos não técnicos que afetam soluções com IA;
+* pensar em segurança e privacidade como parte da arquitetura;
+* entender que custo e observabilidade também importam;
+* diferenciar utilidade real de uso excessivo de IA;
+* fechar a disciplina com uma visão mais crítica e responsável.
 
 ## [AQUI VAI UMA IMAGEM]
 
 Prompt da imagem:
-Criar uma ilustração tipo infográfico, voltada para material educacional, que reúna os principais tópicos transversais de IA aplicada ao desenvolvimento: ética, privacidade, prompt injection, custos, logs, confiança e UX. A imagem deve mostrar esses assuntos como blocos ou cards organizados ao redor de um centro com o título "Boas práticas em IA". Usar estilo editorial moderno, com fundo claro, iconografia simples, cores equilibradas, layout limpo e alta legibilidade. Não usar excesso de texto nem visual poluído. Proporção 16:9.
+Criar uma ilustração didática de abertura para um capítulo complementar sobre boas práticas e tópicos transversais em IA. A imagem deve mostrar um painel conceitual com cinco áreas visuais: ética, privacidade, segurança, custos/observabilidade e limites de confiança. No centro, representar o uso responsável de IA como núcleo da composição. O estilo deve ser editorial, moderno, limpo e profissional, com fundo claro, iconografia discreta, boa hierarquia visual e aparência de material educacional para desenvolvedores. Proporção 16:9.
+
+## Sequência das páginas
+
+* [Ética e uso responsável](etica-e-uso-responsavel.md)
+* [Privacidade, dados e segurança](privacidade-dados-e-seguranca.md)
+* [Custos, observabilidade e operação](custos-observabilidade-e-operacao.md)
+* [Limites de confiança e quando não usar IA](limites-de-confianca-e-quando-nao-usar-ia.md)
+* [Experiência de uso e fechamento do material](experiencia-de-uso-e-fechamento-do-material.md)
 
 ## Resumo
 
-Esses temas talvez não sejam o foco principal da aula, mas são essenciais para que o aluno entenda os cuidados reais ao usar IA em produtos e ferramentas de desenvolvimento.
+Esses temas talvez não sejam o foco central das aulas, mas são parte importante da formação do aluno. Usar IA bem também exige responsabilidade, critério e visão de longo prazo.
 

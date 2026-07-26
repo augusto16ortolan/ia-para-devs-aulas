@@ -1,56 +1,47 @@
 ---
-description: Como agentes raciocinam, usam ferramentas e se organizam em conjunto.
+description: Visão geral de agentes, tomada de ação e orquestração multiagente.
 ---
 
 # Arquitetura de agentes e orquestração multiagente
 
-Um agente é mais do que um chatbot com outro nome.
+Depois de estudar LLMs, prompts, copilotos e MCP, chegamos a um tema que junta várias dessas peças: agentes.
 
-Ele recebe um objetivo, decide um próximo passo, pode usar ferramentas e tenta continuar até chegar a um resultado útil.
+Nesta parte da disciplina, a ideia é entender como um agente se comporta, como ele toma decisões, quando faz sentido usar apenas um agente e quando vale pensar em múltiplos agentes trabalhando em conjunto.
 
-## O loop básico
+## O que você vai estudar aqui
 
-Em termos simples, o agente costuma seguir um ciclo parecido com:
+Ao longo deste conteúdo, vamos organizar o tema em cinco blocos:
 
-* pensar no problema;
-* escolher uma ação;
-* usar uma ferramenta, se necessário;
-* observar o retorno;
-* decidir o próximo passo.
+1. o que é um agente e como ele se diferencia de um chatbot;
+2. como um agente funciona na prática;
+3. agente único versus múltiplos agentes;
+4. orquestração e comunicação entre agentes;
+5. boas práticas, limites e ponte para o próximo conteúdo.
 
-Esse fluxo aparece em abordagens como ReAct e tool-calling.
+## Objetivos de aprendizagem
 
-## Quando usar um agente único
+Ao final deste conteúdo, você deve ser capaz de:
 
-* quando a tarefa é simples;
-* quando o número de ferramentas é pequeno;
-* quando o controle precisa ser mais previsível;
-* quando a comunicação entre vários agentes não traria benefício real.
-
-## Quando usar vários agentes
-
-* quando há especializações claras;
-* quando cada agente pode cuidar de uma parte do problema;
-* quando a tarefa tem muitas etapas diferentes;
-* quando faz sentido ter um orquestrador coordenando a equipe.
-
-## Exemplo rápido
-
-Um agente único pode resolver bem uma tarefa de consulta e resumo. Já um fluxo com vários agentes pode fazer mais sentido quando um agente pesquisa, outro analisa e outro monta a resposta final.
-
-## O que o aluno deve guardar
-
-* agente tem objetivo e ação;
-* o loop de raciocínio e ação ajuda a entender o comportamento;
-* multiagente só vale quando a divisão de responsabilidades compensa;
-* mais agentes nem sempre significam mais qualidade.
+* explicar o que caracteriza um agente;
+* entender o loop básico de raciocínio e ação;
+* comparar cenários de agente único e multiagente;
+* visualizar a ideia de orquestração e especialização;
+* conectar esse conteúdo com integrações externas e sistemas maiores.
 
 ## [AQUI VAI UMA IMAGEM]
 
 Prompt da imagem:
-Criar uma ilustração didática sobre arquitetura de agentes e orquestração multiagente. A imagem deve mostrar, em uma composição clara, um agente principal executando um loop de raciocínio e ação, com setas circulares entre "think", "act" e "observe", e, ao lado, uma equipe de três agentes especializados coordenados por um orquestrador central. Incluir pequenas indicações visuais de tool-calling e function-calling, com estilo técnico, moderno e profissional, fundo claro, alta legibilidade e sem aparência cartunesca. Proporção 16:9.
+Criar uma ilustração didática de abertura para um capítulo sobre arquitetura de agentes e orquestração multiagente. A imagem deve mostrar um agente central analisando uma tarefa, usando ferramentas e tomando decisões em um ciclo visual de raciocínio e ação. Ao lado, mostrar um cenário com múltiplos agentes especializados coordenados por um orquestrador. O estilo deve ser editorial, técnico e moderno, com fundo claro, composição equilibrada, setas claras e aparência profissional de material educacional para desenvolvedores. Proporção 16:9.
+
+## Sequência das páginas
+
+* [O que é um agente e como ele se diferencia de um chatbot](o-que-e-um-agente-e-como-ele-se-diferencia-de-um-chatbot.md)
+* [Como um agente funciona na prática](como-um-agente-funciona-na-pratica.md)
+* [Agente único versus múltiplos agentes](agente-unico-versus-multiplos-agentes.md)
+* [Orquestração e comunicação entre agentes](orquestracao-e-comunicacao-entre-agentes.md)
+* [Boas práticas, limites e ponte para o próximo conteúdo](boas-praticas-limites-e-ponte-para-o-proximo-conteudo.md)
 
 ## Resumo
 
-Agentes recebem objetivos, executam ações e podem usar ferramentas. Quando a tarefa fica mais complexa, faz sentido pensar em orquestração e especialização.
+Agentes ampliam o papel da IA: eles não apenas respondem, mas também planejam, usam ferramentas e seguem objetivos. Entender essa lógica prepara o aluno para o próximo passo, que é integrar agentes com o mundo externo.
 

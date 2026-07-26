@@ -1,0 +1,88 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7FBFF"/>
+      <stop offset="1" stop-color="#E6F4EE"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#134E4A"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1270" cy="170" r="120" fill="#DCEEFE"/>
+  <circle cx="1380" cy="670" r="180" fill="#DDF6EC"/>
+  <rect x="110" y="104" width="1380" height="692" rx="32" fill="white" stroke="#D7E3F0" stroke-width="2"/>
+  <text x="165" y="220" fill="#0F172A" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="700">
+    Machine Learning e Inteligência Artificial para Devs
+  </text>
+  <text x="168" y="285" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="28">
+    LLMs, prompts, copilotos, MCP, agentes e integrações externas
+  </text>
+
+  <rect x="165" y="350" width="290" height="140" rx="24" fill="#EFF6FF" stroke="#BFDBFE"/>
+  <text x="195" y="405" fill="#1D4ED8" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">
+    Fundamentos
+  </text>
+  <text x="195" y="447" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="22">
+    LLMs, contexto
+  </text>
+  <text x="195" y="478" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="22">
+    comportamento
+  </text>
+
+  <rect x="480" y="350" width="290" height="140" rx="24" fill="#F0FDF4" stroke="#BBF7D0"/>
+  <text x="510" y="405" fill="#15803D" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">
+    Prompting
+  </text>
+  <text x="510" y="447" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="22">
+    Instruções, contexto
+  </text>
+  <text x="510" y="478" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="22">
+    e controle
+  </text>
+
+  <rect x="795" y="350" width="290" height="140" rx="24" fill="#FEFCE8" stroke="#FDE68A"/>
+  <text x="825" y="405" fill="#A16207" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">
+    Copilotos
+  </text>
+  <text x="825" y="447" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="22">
+    Editor, chat
+  </text>
+  <text x="825" y="478" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="22">
+    revisão e testes
+  </text>
+
+  <rect x="1110" y="350" width="290" height="140" rx="24" fill="#F5F3FF" stroke="#DDD6FE"/>
+  <text x="1140" y="405" fill="#6D28D9" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">
+    MCP e agentes
+  </text>
+  <text x="1140" y="447" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="22">
+    Tools, resources
+  </text>
+  <text x="1140" y="478" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="22">
+    e orquestração
+  </text>
+
+  <rect x="165" y="552" width="660" height="176" rx="28" fill="url(#card)"/>
+  <text x="205" y="620" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">
+    Fluxo da disciplina
+  </text>
+  <text x="205" y="668" fill="#D6F4EA" font-family="Arial, Helvetica, sans-serif" font-size="24">
+    entender a base → orientar melhor → usar no desenvolvimento
+  </text>
+  <text x="205" y="706" fill="#D6F4EA" font-family="Arial, Helvetica, sans-serif" font-size="24">
+    integrar com ferramentas → arquitetar agentes com responsabilidade
+  </text>
+
+  <rect x="862" y="552" width="538" height="176" rx="28" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+  <text x="900" y="618" fill="#0F172A" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700">
+    Visão prática para devs
+  </text>
+  <text x="900" y="664" fill="#475569" font-family="Arial, Helvetica, sans-serif" font-size="22">
+    Menos matemática pesada.
+  </text>
+  <text x="900" y="696" fill="#475569" font-family="Arial, Helvetica, sans-serif" font-size="22">
+    Mais arquitetura, ferramentas e uso real.
+  </text>
+</svg>

@@ -1,46 +1,47 @@
 ---
-description: Hands-on de um servidor MCP simples expondo uma API ou banco como ferramenta.
+description: Visão geral da construção de um servidor MCP simples e funcional.
 ---
 
 # Construindo um servidor MCP do zero
 
-Agora a ideia é sair da visão geral e montar algo simples.
+Depois de entender o que é MCP e por que ele existe, o próximo passo é sair da visão conceitual e olhar para uma construção prática.
 
-O objetivo não é construir um produto completo, e sim entender o fluxo:
+Aqui, a ideia não é criar um produto completo nem entrar em todos os detalhes possíveis de implementação. O foco é entender a estrutura mínima, o fluxo de trabalho e os cuidados mais importantes ao montar um servidor MCP simples.
 
-1. criar um servidor MCP;
-2. expor uma ferramenta;
-3. conectar essa ferramenta a uma API ou banco;
-4. permitir que um agente consulte esse recurso.
+## O que você vai estudar aqui
 
-## O que pode ser exposto
+Ao longo deste conteúdo, vamos organizar o tema em cinco blocos:
 
-* uma rota de API que busca informações;
-* um banco de dados com consultas simples;
-* um arquivo local com dados de apoio.
+1. o que vamos construir e por que;
+2. estrutura básica de um servidor MCP;
+3. expondo ferramentas e recursos;
+4. boas práticas de implementação;
+5. testando, usando e conectando com o próximo conteúdo.
 
-## O que observar no hands-on
+## Objetivos de aprendizagem
 
-* estrutura mínima do servidor;
-* entrada e saída de dados;
-* tratamento de erro;
-* validação básica;
-* como o cliente consome a ferramenta.
+Ao final deste conteúdo, você deve ser capaz de:
 
-## O que o aluno deve perceber
-
-Ao final, o aluno deve enxergar que um MCP server é, na prática, uma camada organizada para oferecer ferramentas a um agente.
-
-## Exemplo rápido
-
-Se o servidor expõe uma ferramenta para consultar clientes em um banco de dados, o agente passa a pedir essa informação por meio de uma interface mais padronizada. Isso reduz acoplamento e facilita manutenção.
+* entender o papel de um servidor MCP dentro da arquitetura;
+* visualizar a estrutura mínima de um projeto desse tipo;
+* pensar em tools e resources de forma mais prática;
+* reconhecer boas práticas de escopo, validação e previsibilidade;
+* enxergar como esse servidor pode ser usado por agentes em cenários maiores.
 
 ## [AQUI VAI UMA IMAGEM]
 
 Prompt da imagem:
-Criar uma ilustração técnica mostrando a construção de um servidor MCP do zero. A imagem deve apresentar um bloco central representando o servidor MCP, com uma ferramenta exposta chamada "consultar dados" ou algo equivalente, conectada a uma API e a um banco de dados. Mostrar, em um fluxo simples, entrada de requisição, processamento no servidor, consulta ao recurso externo e retorno para o cliente de IA. O estilo deve ser didático, com cara de documentação técnica moderna, fundo claro, layout limpo, componentes bem separados e setas bem visíveis. Proporção 16:9.
+Criar uma ilustração didática de abertura para um capítulo sobre construção de um servidor MCP. A imagem deve mostrar um servidor MCP sendo montado em etapas, com blocos visuais representando estrutura do projeto, tools, resources, validação e conexão com cliente de IA. Ao fundo, incluir discretamente uma API, um banco de dados e arquivos locais como recursos possíveis. O estilo deve ser técnico, moderno e educacional, com fundo claro, composição limpa, setas visíveis e aparência de documentação prática para desenvolvedores. Proporção 16:9.
+
+## Sequência das páginas
+
+* [O que vamos construir e por que](o-que-vamos-construir-e-por-que.md)
+* [Estrutura básica de um servidor MCP](estrutura-basica-de-um-servidor-mcp.md)
+* [Expondo ferramentas e recursos](expondo-ferramentas-e-recursos.md)
+* [Boas práticas de implementação](boas-praticas-de-implementacao.md)
+* [Testando, usando e conectando com o próximo conteúdo](testando-usando-e-conectando-com-o-proximo-conteudo.md)
 
 ## Resumo
 
-Um servidor MCP é a camada que expõe ferramentas de forma organizada. No hands-on, o mais importante é entender o caminho entre cliente, servidor e recurso externo.
+Construir um servidor MCP ajuda o aluno a transformar um conceito de arquitetura em algo mais concreto. Mesmo num exemplo simples, já dá para entender bem o valor da padronização.
 

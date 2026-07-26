@@ -30,10 +30,7 @@ Ao final deste conteúdo, você deve ser capaz de:
 * comparar MCP com abordagens mais diretas;
 * usar essa base para o próximo conteúdo, em que vamos construir um servidor MCP.
 
-## [AQUI VAI UMA IMAGEM]
-
-Prompt da imagem:
-Criar uma ilustração didática de abertura para um capítulo sobre Model Context Protocol. A imagem deve mostrar um cliente de IA conectado a um servidor MCP central, que por sua vez se conecta a diferentes ferramentas e fontes externas como APIs, banco de dados, sistema de arquivos e documentos. A composição deve evidenciar a ideia de padronização e organização arquitetural, com fluxos claros entre cliente, servidor e recursos. O estilo deve ser editorial, técnico e moderno, com fundo claro, linhas limpas, boa hierarquia visual e aparência profissional de material educacional para desenvolvedores. Proporção 16:9.
+<figure><img src="../.gitbook/assets/mcp-overview.svg" alt=""><figcaption></figcaption></figure>
 
 ## Sequência das páginas
 
@@ -46,4 +43,3 @@ Criar uma ilustração didática de abertura para um capítulo sobre Model Conte
 ## Resumo
 
 O MCP ajuda a organizar a integração entre sistemas de IA e ferramentas externas. Entender essa camada torna mais natural o próximo passo da disciplina: construir um servidor MCP do zero.
-
