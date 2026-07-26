@@ -1,60 +1,47 @@
 ---
-description: Fundamentos práticos para entender como LLMs funcionam sem aprofundar em matemática.
+description: Visão geral dos fundamentos de LLMs para preparar o restante da disciplina.
 ---
 
 # Fundamentos de LLMs para devs
 
-Antes de usar agentes, MCP ou copilotos, vale entender o básico de um LLM.
+Antes de falar sobre agentes, MCP, copilotos e integrações, vale construir uma base sólida sobre o que um LLM faz e como ele se comporta na prática.
 
-O ponto aqui não é estudar estatística nem treinamento de redes neurais. A meta é entender como o modelo responde, como ele usa contexto e por que o prompt muda tanto o resultado.
+Nesta parte da disciplina, a ideia não é entrar em matemática pesada nem em detalhes de treinamento de modelos. O foco é entender o suficiente para usar bem essas ferramentas no contexto de desenvolvimento de software.
 
-## O que interessa na prática
+## O que você vai estudar aqui
 
-* **Tokens:** o modelo não lê palavras exatamente como humanos; ele trabalha com unidades menores de texto.
-* **Context window:** é o espaço de contexto que o modelo consegue considerar de uma vez.
-* **Prompting:** é a forma como você organiza a entrada para orientar a resposta.
-* **Limites:** o modelo pode errar, simplificar demais ou inventar informações.
+Ao longo deste conteúdo, vamos organizar os fundamentos em cinco blocos:
 
-## Como pensar no funcionamento
+1. o que é um LLM e como ele funciona;
+2. contexto, memória e comportamento do modelo;
+3. o que LLMs fazem bem e onde erram;
+4. LLMs no desenvolvimento de software;
+5. boas práticas e ponte para os próximos conteúdos.
 
-Imagine que o LLM é um sistema de previsão de texto muito avançado. Ele recebe o contexto, observa o padrão da conversa e gera a continuação mais provável para a sua solicitação.
+## Objetivos de aprendizagem
 
-Isso ajuda a entender por que:
+Ao final deste conteúdo, você deve ser capaz de:
 
-* instruções claras funcionam melhor;
-* contexto ruim gera resposta ruim;
-* mensagens longas demais podem perder informação importante;
-* pequenos detalhes na escrita influenciam bastante o resultado.
-
-## Exemplo rápido
-
-Se você pede:
-
-* "Explique a ideia de contexto em IA para um aluno do primeiro semestre."
-
-o modelo tende a responder de forma mais didática do que se você escrever apenas:
-
-* "Explique contexto."
-
-A diferença parece pequena, mas o tipo de resposta muda bastante.
-
-## O que o aluno precisa memorizar
-
-* o modelo não "sabe" tudo;
-* ele trabalha com contexto limitado;
-* o prompt influencia o comportamento;
-* respostas devem ser verificadas quando o uso é técnico ou crítico.
+* explicar, com suas palavras, o que é um LLM;
+* entender o papel de tokens, contexto e prompting;
+* reconhecer capacidades e limitações do modelo;
+* visualizar onde LLMs ajudam no trabalho de desenvolvimento;
+* usar essa base para seguir com prompts, copilotos, MCP e agentes.
 
 ## [AQUI VAI UMA IMAGEM]
 
 Prompt da imagem:
-Criar uma ilustração didática que explique, de forma visual e simples, como um LLM funciona na prática. A composição deve mostrar um prompt de entrada sendo quebrado em tokens, passando por uma janela de contexto representada como uma faixa ou quadro central, e gerando uma resposta de saída. Incluir elementos visuais discretos como blocos, setas, pequenas etiquetas "tokens", "context window" e "response". O estilo deve ser técnico, limpo e moderno, voltado para um material educacional para desenvolvedores, com fundo claro, boa hierarquia visual, design editorial, sem exagero futurista e sem parecer publicidade. Proporção 16:9.
+Criar uma ilustração didática de abertura para um capítulo sobre fundamentos de LLMs para desenvolvedores. A composição deve mostrar um fluxo visual organizado em cinco blocos conectados: funcionamento do modelo, contexto e memória, capacidades e erros, uso no desenvolvimento de software e boas práticas. No centro, representar um modelo de linguagem como um núcleo de processamento textual, com setas ligando entradas, contexto e saídas. O estilo deve ser editorial, técnico e moderno, com fundo claro, paleta equilibrada entre azul, verde e cinza, boa hierarquia visual, elementos limpos e aparência profissional de material educacional. Proporção 16:9.
 
-## Fechamento
+## Sequência das páginas
 
-Se o aluno entender tokens, contexto e prompting, ele já tem a base suficiente para seguir para engenharia de prompts, copilotos e agentes.
+* [O que é um LLM e como ele funciona](o-que-e-um-llm-e-como-ele-funciona.md)
+* [Contexto, memória e comportamento do modelo](contexto-memoria-e-comportamento-do-modelo.md)
+* [O que LLMs fazem bem e onde erram](o-que-llms-fazem-bem-e-onde-erram.md)
+* [LLMs no desenvolvimento de software](llms-no-desenvolvimento-de-software.md)
+* [Boas práticas e ponte para os próximos conteúdos](boas-praticas-e-ponte-para-os-proximos-conteudos.md)
 
 ## Resumo
 
-LLM é um modelo de previsão de texto que trabalha com tokens e contexto limitado. Na prática, a qualidade da resposta depende muito da qualidade do prompt e do tamanho do contexto disponível.
+Este conteúdo funciona como a base conceitual da disciplina. Se você entender bem como um LLM responde, onde ele ajuda e onde ele falha, os próximos tópicos ficam muito mais naturais.
 

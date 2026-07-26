@@ -1,55 +1,47 @@
 ---
-description: Uso prático de Claude Code, GitHub Copilot e Cursor para tarefas reais de desenvolvimento.
+description: Visão geral do uso de copilotos de código no fluxo real de desenvolvimento.
 ---
 
 # Copilotos de código na prática
 
-Copilotos de código são mais úteis quando o aluno para de olhar apenas para autocomplete e passa a enxergar a IA como assistente de desenvolvimento.
+Depois de entender LLMs e prompts, vale olhar para um dos usos mais visíveis de IA no dia a dia de desenvolvimento: os copilotos de código.
 
-## Onde eles ajudam de verdade
+Nesta parte da disciplina, a ideia é sair da visão de “autocomplete inteligente” e enxergar essas ferramentas como assistentes que ajudam a ler, editar, revisar, testar e explorar código.
 
-* refatoração de código;
-* explicação de trechos legados;
-* debug assistido;
-* criação e ajuste de testes;
-* revisão de pull requests;
-* exploração rápida de uma base de código.
+## O que você vai estudar aqui
 
-## Ferramentas em destaque
+Ao longo deste conteúdo, vamos organizar o tema em cinco blocos:
 
-* **Claude Code:** bom para interagir com a base de código de forma guiada.
-* **GitHub Copilot:** útil no fluxo do editor e em tarefas de sugerir código.
-* **Cursor:** interessante para edição assistida, perguntas sobre o projeto e iteração rápida dentro do ambiente de desenvolvimento.
+1. o que é um copiloto de código;
+2. ferramentas e estilos de uso;
+3. principais usos na prática;
+4. boas práticas de uso e revisão;
+5. limites, riscos e ponte para os próximos conteúdos.
 
-## O que muda na prática
+## Objetivos de aprendizagem
 
-Essas ferramentas ficam realmente úteis quando você começa a usá-las em tarefas do dia a dia, como:
+Ao final deste conteúdo, você deve ser capaz de:
 
-* entender uma função antiga;
-* pedir uma sugestão de refatoração;
-* montar testes para um trecho de código;
-* investigar um bug com apoio do editor;
-* revisar um diff antes de abrir um pull request.
-
-## Como usar com critério
-
-O aluno precisa entender que a IA:
-
-* acelera tarefas repetitivas;
-* ajuda a enxergar alternativas;
-* não substitui validação humana;
-* pode sugerir soluções aparentemente certas, mas erradas na prática.
-
-## Regra de ouro
-
-Quanto mais importante for a tarefa, mais importante é revisar o resultado da IA antes de aceitar.
+* diferenciar autocomplete tradicional de copiloto de código;
+* reconhecer diferentes estilos de ferramenta no mercado;
+* visualizar usos reais no desenvolvimento;
+* adotar uma postura mais crítica diante do código gerado;
+* conectar copilotos com os próximos temas da disciplina.
 
 ## [AQUI VAI UMA IMAGEM]
 
 Prompt da imagem:
-Criar uma cena didática mostrando um desenvolvedor usando três copilotos de código em um ambiente de desenvolvimento moderno. A imagem deve representar, de forma visual e elegante, um editor de código com sugestões de IA, um painel de chat para debug, um destaque de refatoração e um pequeno quadro de code review com comentários automatizados. Mostrar claramente as ferramentas Claude Code, GitHub Copilot e Cursor como diferentes modos de assistência, sem usar logos reais obrigatoriamente, mas deixando perceptível a diferença entre os fluxos. Estilo profissional, tech, limpo, fundo claro, com elementos de UI realistas e organizados. Proporção 16:9.
+Criar uma ilustração didática de abertura para um capítulo sobre copilotos de código. A imagem deve mostrar um desenvolvedor em um ambiente moderno de programação, cercado por diferentes formas de assistência de IA: sugestões inline no editor, chat contextual, terminal assistido, revisão de código e edição em múltiplos arquivos. Organizar a composição em cinco áreas conceituais discretas: conceito de copiloto, diferentes ferramentas, usos práticos, boas práticas e limites. O estilo deve ser editorial, técnico e moderno, com fundo claro, paleta equilibrada entre azul, verde e cinza, excelente hierarquia visual e aparência profissional de material educacional. Proporção 16:9.
+
+## Sequência das páginas
+
+* [O que é um copiloto de código](o-que-e-um-copiloto-de-codigo.md)
+* [Ferramentas e estilos de uso](ferramentas-e-estilos-de-uso.md)
+* [Principais usos na prática](principais-usos-na-pratica.md)
+* [Boas práticas de uso e revisão](boas-praticas-de-uso-e-revisao.md)
+* [Limites, riscos e ponte para os próximos conteúdos](limites-riscos-e-ponte-para-os-proximos-conteudos.md)
 
 ## Resumo
 
-Copilotos de código servem para acelerar leitura, escrita, revisão e depuração. Eles ajudam muito, mas continuam exigindo revisão humana.
+Copilotos de código não são apenas sugeridores de linha. Eles são parte de um novo fluxo de desenvolvimento em que a IA participa da leitura, escrita, revisão e exploração do projeto.
 

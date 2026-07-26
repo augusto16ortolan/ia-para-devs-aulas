@@ -2,5 +2,6 @@
 
 1. Em uma frase, o que são tokens?
 2. Por que a janela de contexto importa?
-3. Diga um exemplo de situação em que o resultado de um LLM deveria ser revisado por uma pessoa.
-
+3. Cite uma tarefa em que um LLM costuma ajudar bastante no desenvolvimento de software.
+4. Explique, em termos simples, o que é alucinação em um modelo de linguagem.
+5. Diga um exemplo de situação em que o resultado de um LLM deveria ser revisado por uma pessoa.

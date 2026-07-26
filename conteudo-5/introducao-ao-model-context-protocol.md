@@ -1,45 +1,49 @@
 ---
-description: O que é MCP, por que existe e como ele organiza a integração de ferramentas.
+description: Visão geral do MCP e seu papel na integração entre agentes e ferramentas.
 ---
 
 # Introdução ao Model Context Protocol
 
-O MCP surgiu para resolver um problema muito comum: integrar ferramentas e dados a assistentes e agentes sem criar uma integração totalmente diferente para cada caso.
+Depois de entender LLMs, prompts e copilotos, chegamos a uma pergunta importante: como conectar esses sistemas a ferramentas, dados e recursos externos de forma organizada?
 
-## Ideia central
+É exatamente nesse ponto que entra o MCP.
 
-Em vez de cada ferramenta ser acoplada diretamente ao agente, o MCP organiza a comunicação entre:
+Nesta parte da disciplina, a ideia é entender o protocolo não como algo excessivamente técnico ou abstrato, mas como uma peça prática de arquitetura para IA aplicada ao desenvolvimento.
 
-* **client**;
-* **server**;
-* **tools**;
-* **contexto**.
+## O que você vai estudar aqui
 
-Isso facilita a expansão do sistema e deixa a integração mais padronizada.
+Ao longo deste conteúdo, vamos organizar o tema em cinco blocos:
 
-## Por que isso importa
+1. o que é MCP e por que ele existe;
+2. arquitetura básica do MCP;
+3. como o MCP funciona na prática;
+4. vantagens, limites e comparação com outras abordagens;
+5. boas práticas e ponte para o próximo conteúdo.
 
-Sem um padrão, cada agente acaba com uma forma diferente de conversar com API, banco de dados, arquivo ou serviço externo.
+## Objetivos de aprendizagem
 
-Com MCP, o ecossistema fica mais organizado e previsível.
+Ao final deste conteúdo, você deve ser capaz de:
 
-## O que o aluno precisa guardar
-
-* MCP é um protocolo de integração;
-* ele ajuda a expor capacidades como ferramentas;
-* ele organiza melhor o acesso a contexto e recursos;
-* ele é muito útil quando um agente precisa conversar com várias fontes.
-
-## Exemplo rápido
-
-Se um agente precisa consultar dados em vários lugares, o MCP ajuda a padronizar a forma de acesso. Em vez de construir uma integração diferente para cada ferramenta, a comunicação segue o mesmo modelo.
+* explicar, com suas palavras, o que é MCP;
+* entender a diferença entre cliente, servidor, ferramentas e recursos;
+* enxergar o protocolo como uma camada de integração;
+* comparar MCP com abordagens mais diretas;
+* usar essa base para o próximo conteúdo, em que vamos construir um servidor MCP.
 
 ## [AQUI VAI UMA IMAGEM]
 
 Prompt da imagem:
-Criar uma ilustração didática explicando a arquitetura cliente-servidor do MCP. A cena deve mostrar, de forma clara e horizontal, um cliente de IA, um servidor MCP no centro e três tipos de recursos conectados: uma API, um banco de dados e um sistema de arquivos. Usar setas indicando fluxo de requisição e resposta, com pequenos rótulos como "client", "MCP server", "tools" e "resources". O visual deve ser limpo, técnico e moderno, com fundo claro, linhas finas, organização em camadas e aparência educativa, sem estilo cartoon e sem excesso de texto. Proporção 16:9.
+Criar uma ilustração didática de abertura para um capítulo sobre Model Context Protocol. A imagem deve mostrar um cliente de IA conectado a um servidor MCP central, que por sua vez se conecta a diferentes ferramentas e fontes externas como APIs, banco de dados, sistema de arquivos e documentos. A composição deve evidenciar a ideia de padronização e organização arquitetural, com fluxos claros entre cliente, servidor e recursos. O estilo deve ser editorial, técnico e moderno, com fundo claro, linhas limpas, boa hierarquia visual e aparência profissional de material educacional para desenvolvedores. Proporção 16:9.
+
+## Sequência das páginas
+
+* [O que é MCP e por que ele existe](o-que-e-mcp-e-por-que-ele-existe.md)
+* [Arquitetura básica do MCP](arquitetura-basica-do-mcp.md)
+* [Como o MCP funciona na prática](como-o-mcp-funciona-na-pratica.md)
+* [Vantagens, limites e comparação com outras abordagens](vantagens-limites-e-comparacao-com-outras-abordagens.md)
+* [Boas práticas e ponte para o próximo conteúdo](boas-praticas-e-ponte-para-o-proximo-conteudo.md)
 
 ## Resumo
 
-O MCP existe para organizar a integração entre agentes e ferramentas. Ele não resolve tudo sozinho, mas deixa a arquitetura mais clara, modular e reaproveitável.
+O MCP ajuda a organizar a integração entre sistemas de IA e ferramentas externas. Entender essa camada torna mais natural o próximo passo da disciplina: construir um servidor MCP do zero.
 
