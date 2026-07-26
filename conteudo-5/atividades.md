@@ -6,7 +6,7 @@ description: >-
 
 # Atividades
 
-<figure><img src="../.gitbook/assets/atividades-ia-devs.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ## Questões de estudo
 
